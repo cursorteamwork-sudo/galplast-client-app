@@ -1,25 +1,22 @@
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  --background: #FFFFFF;
+  --foreground: #2B2929;
+  --muted: #C9C9C9;
+  --cta: #3F4245;
+  --white: #FFFFFF;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Sansation', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,6 +30,27 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+.sansation-light { font-family: "Sansation", sans-serif; font-weight: 300; font-style: normal; }
+.sansation-regular { font-family: "Sansation", sans-serif; font-weight: 400; font-style: normal; }
+.sansation-bold { font-family: "Sansation", sans-serif; font-weight: 700; font-style: normal; }
+.sansation-light-italic { font-family: "Sansation", sans-serif; font-weight: 300; font-style: italic; }
+.sansation-regular-italic { font-family: "Sansation", sans-serif; font-weight: 400; font-style: italic; }
+.sansation-bold-italic { font-family: "Sansation", sans-serif; font-weight: 700; font-style: italic; }
+
+
+
+.page-content {
+  padding: 24px 0 40px;
 }
 
 @media (prefers-color-scheme: dark) {
