@@ -1,0 +1,9 @@
+<svg width="764" height="782" viewBox="0 0 764 782" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 24C0 10.7452 10.7452 0 24 0H534.866C548.121 0 558.866 10.7452 558.866 24V41.9215C558.866 49.2176 562.185 56.1176 567.885 60.6718L569.807 62.2072C574.06 65.6057 579.343 67.4569 584.787 67.4569H740C753.255 67.4569 764 78.202 764 91.4569V393.249V588.624V758C764 771.255 753.255 782 740 782H300.681C287.426 782 276.681 771.255 276.681 758V738V729.534V527.678C276.681 514.423 265.936 503.678 252.681 503.678H24C10.7452 503.678 0 492.933 0 479.678V24Z" fill="url(#pattern0_1268_1472)"/>
+<defs>
+<pattern id="pattern0_1268_1472" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1268_1472" transform="matrix(0.00102356 0 0 0.001 -0.0117801 0)"/>
+</pattern>
+<image id="image0_1268_1472" width="1000" height="1000" preserveAspectRatio="none" xlink:href="/images/advantages/kalush_1.jpg"/>
+</defs>
+</svg>

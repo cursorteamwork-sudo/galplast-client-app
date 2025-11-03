@@ -1,11 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 :root {
-  --background: #FFFFFF;
+  --background: #F3F3F3;
   --foreground: #2B2929;
   --muted: #C9C9C9;
   --cta: #3F4245;
   --white: #FFFFFF;
+}
+
+html {
+  background: #F3F3F3;
 }
 
 body {
@@ -50,7 +55,7 @@ a {
 
 
 .page-content {
-  padding: 24px 0 40px;
+  padding: 0 0 40px;
 }
 
 @media (prefers-color-scheme: dark) {

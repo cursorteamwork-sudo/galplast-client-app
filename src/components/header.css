@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--background);
+  background: #FFFFFF;
 }
 
 .header-bar {
@@ -37,5 +37,6 @@
 .nav-pill:hover::before { opacity: 1; transform: translateY(-50%) scale(1); }
 
 .header-cta { display: flex; align-items: center; }
-.cta-btn { display: inline-block; padding: 12px 28px; border-radius: 9999px; background: var(--cta); color: var(--white); font-weight: 400; font-style: normal; }
+.cta-btn { display: inline-block; padding: 12px 28px; border-radius: 9999px; background: var(--cta); color: var(--white); font-weight: 400; font-style: normal; transition: filter 0.2s ease; }
+.cta-btn:hover { filter: brightness(1.5); }
 

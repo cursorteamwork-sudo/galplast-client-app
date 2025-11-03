@@ -34,6 +34,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className={`sansation-regular ${geistSans.variable} ${geistMono.variable}`}>
         <Header />

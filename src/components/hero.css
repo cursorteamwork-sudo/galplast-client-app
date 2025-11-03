@@ -1,23 +1,40 @@
+
+.hero-wrapper {
+  position: relative;
+  width: 100vw;               
+  left: 50%;                 
+  right: 50%;
+  margin-left: -50vw;      
+  margin-right: -50vw;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden; 
+}
+
 .hero {
   width: 100%;
-  max-width: 1232px;
-  height: 579px;
-  margin: 0 auto;
+  max-width: 1232px;         
+  height: 599px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 24px 24px;
+  padding: 0;
   box-sizing: border-box;
 
-  --hero-title-x: 0px;
+  --hero-title-x: 17px;
   --hero-title-y: 0px;
- 
+
   --hero-text-x: 900px;
   --hero-text-y: 430px;
 
-  --hero-socials-x: 0px;
-  --hero-socials-y: 555 Qwerdlpx;
+  --hero-socials-x: 17px;
+  --hero-socials-y: 540px;
 }
 
 .hero-defs {
@@ -26,7 +43,6 @@
   height: 0;
 }
 
-
 .hero-media {
   position: absolute;
   inset: 0;
@@ -34,6 +50,7 @@
   -webkit-mask: url(#heroMask);
   mask: url(#heroMask);
   overflow: hidden;
+  border-radius: 40px;
 }
 
 .hero-gif {
@@ -42,14 +59,21 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 40px;
 }
 
 .hero-media-pattern {
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.25) 1px, transparent 1px);
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.25) 1px,
+    transparent 1px
+  );
   background-size: 10px 10px;
   opacity: 0.35;
+  border-radius: 40px;
 }
 
 .hero-content {
@@ -57,10 +81,11 @@
   z-index: 1;
   width: 100%;
   height: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 24px 24px;
+  padding: 0 24px;
 }
 
 .hero-title {
@@ -83,7 +108,6 @@
   left: 0;
   top: 0;
   transform: translate(var(--hero-text-x), var(--hero-text-y));
-  box-shadow: none;
   width: 320px;
 }
 
@@ -118,4 +142,13 @@
   transform: translate(var(--hero-socials-x), var(--hero-socials-y));
   display: flex;
   gap: 16px;
+}
+
+.hero-socials img {
+  transition: opacity 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.hero-socials img:hover {
+  filter: brightness(0.5);
 }
