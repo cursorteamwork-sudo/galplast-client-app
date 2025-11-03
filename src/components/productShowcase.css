@@ -1,0 +1,297 @@
+.product-showcase {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.product-showcase-content {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 40px;
+  background: #ffffff;
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-showcase-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  z-index: 2;
+}
+
+.product-showcase-trademarks-title {
+  width: 135px;
+  height: 16px;
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: #3f4245;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-125px) translateX(-15px);
+}
+
+.product-showcase-brands {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product-showcase-brands li {
+  margin: 0;
+}
+
+.product-showcase-brand-btn {
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  background: transparent;
+  color: #808080;
+  font-family: "Sansation", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -1.1%;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  border-radius: 8px;
+  transform: translateX(-35px);
+}
+
+.product-showcase-brand-btn:hover {
+  background: transparent;
+  color: #808080;
+  
+}
+
+.product-showcase-brand-btn-main {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.product-showcase-brand-btn-main:hover {
+  background: transparent;
+}
+
+.product-showcase-brand-btn-active {
+  color: #000000;
+  font-weight: 400;
+  background: transparent;
+  transition: color 0.5s ease-in-out;
+}
+
+.product-showcase-brand-btn-active:hover {
+  background: transparent;
+  color: #000000;
+}
+
+.product-showcase-catalog-btn {
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: 1.5px solid #777777;
+  background: transparent;
+  color: #3f4245;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+  text-transform: uppercase;
+  transform: translateY(65px) translateX(-15px);
+}
+
+.product-showcase-catalog-btn:hover {
+  background: #3f4245;
+  color: #ffffff;
+}
+
+.product-showcase-right-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  
+}
+
+.product-showcase-right-section .product-showcase-right {
+  margin-left: -40px;
+}
+
+.product-showcase-bottle-wrapper {
+  position: relative;
+  flex-shrink: 0;
+  width: 280px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.product-showcase-bottle {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.6s ease-in-out;
+}
+
+.product-showcase-bottle-current {
+  z-index: 2;
+}
+
+.product-showcase-bottle-previous {
+  z-index: 1;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.product-showcase-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  z-index: 2;
+  position: relative;
+  transition: opacity 0.6s ease-in-out;
+  max-width: calc(100% - 380px);
+  min-width: 0;
+  padding-right: 200px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.product-showcase-benefits-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3f4245;
+  margin: 0;
+  text-transform: uppercase;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.product-showcase-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.product-showcase-benefit {
+  font-size: 16px;
+  font-weight: 400;
+  color: #404347;
+  line-height: 1.6;
+  margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.product-showcase-next-bottle {
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 600px;
+  object-fit: contain;
+  filter: blur(8px);
+  opacity: 0.9;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 1200px) {
+  .product-showcase-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 24px;
+  }
+
+  .product-showcase-bottle-wrapper {
+    width: 220px;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .product-showcase-right-section {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: auto;
+  }
+
+  .product-showcase-right {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .product-showcase-next-bottle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-showcase {
+    padding: 60px 0;
+  }
+
+  .product-showcase-content {
+    padding: 32px 20px;
+    border-radius: 24px;
+  }
+
+  .product-showcase-bottle-wrapper {
+    width: 180px;
+    height: 400px;
+  }
+
+  .product-showcase-brand-image {
+    height: 32px;
+  }
+
+  .product-showcase-brand-main .product-showcase-brand-image {
+    height: 48px;
+  }
+
+  .product-showcase-trademarks-title,
+  .product-showcase-benefits-title {
+    font-size: 20px;
+  }
+}

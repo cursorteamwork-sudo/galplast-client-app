@@ -104,8 +104,8 @@ export function Advantages() {
         setTimeout(() => {
           setIsAnimating(false);
         }, 500);
-      }, 500); // Час збігається з CSS transition - все синхронізовано
-    }, 8000); // Змінюється кожні 8 секунд
+        }, 500); 
+    }, 8000); 
 
     return () => clearInterval(interval);
   }, [isAnimating]);

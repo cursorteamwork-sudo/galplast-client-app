@@ -1,6 +1,7 @@
 "use client";
 
 import "./about.css";
+
 import Image from "next/image";
 
 export function About() {
@@ -10,7 +11,7 @@ export function About() {
           <div className="about-header">
             <span className="about-label">ПРО НАС</span>
             <h2 className="about-title">
-              ТЗОВ СП "Галпласт"<br />
+              ТЗОВ СП &quot;Галпласт&quot;<br />
               ВИРОБНИЦТВО ВОДИ
             </h2>
             <button className="about-cta">ДІЗНАТИСЬ БІЛЬШЕ</button>
@@ -18,7 +19,7 @@ export function About() {
               Ми сучасне українське підприємство з багаторічною історією, що
               спеціалізується на розливі мінеральної води та виробництві
               ПЕТ-пляшок. Ми поєднуємо якість, інновації та турботу про
-              здоров'я споживачів.
+              здоров&apos;я споживачів.
             </p>
           </div>
 
