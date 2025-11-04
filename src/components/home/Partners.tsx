@@ -1,3 +1,4 @@
+
 import "./partners.css";
 
 export function Partners() {
