@@ -7,12 +7,12 @@ import "./advantages.css";
 import React, { useEffect, useRef, useState } from "react";
 
 export function Advantages() {
-  const [currentImage, setCurrentImage] = useState("/images/advantages/kalush_1.jpg");
+  const [currentImage, setCurrentImage] = useState("/images/main/advantages/kalush_1.jpg");
   const [galleryImages, setGalleryImages] = useState([
-    "/images/advantages/gallery1.jpg",
-    "/images/advantages/gallery2.png",
-    "/images/advantages/gallery3.png",
-    "/images/advantages/gallery4.jpg",
+    "/images/main/advantages/gallery1.jpg",
+    "/images/main/advantages/gallery2.png",
+    "/images/main/advantages/gallery3.png",
+    "/images/main/advantages/gallery4.jpg",
   ]);
   const [imageOpacity, setImageOpacity] = useState(1);
   const [firstGalleryItemOpacity, setFirstGalleryItemOpacity] = useState(1);
@@ -124,19 +124,19 @@ export function Advantages() {
             </h2>
             <div className="advantages-socials-header">
               <img
-                src="/images/hero/facebook.svg"
+                src="/images/main/hero/facebook.svg"
                 alt="facebook"
                 width={24}
                 height={24}
               />
               <img
-                src="/images/hero/instagram.svg"
+                src="/images/main/hero/instagram.svg"
                 alt="instagram"
                 width={24}
                 height={24}
               />
               <img
-                src="/images/hero/tiktok.svg"
+                src="/images/main/hero/tiktok.svg"
                 alt="tiktok"
                 width={24}
                 height={24}
@@ -237,19 +237,19 @@ export function Advantages() {
               />
               <div className="advantages-socials">
                 <img
-                  src="/images/hero/facebook.svg"
+                  src="/images/main/hero/facebook.svg"
                   alt="facebook"
                   width={24}
                   height={24}
                 />
                 <img
-                  src="/images/hero/instagram.svg"
+                  src="/images/main/hero/instagram.svg"
                   alt="instagram"
                   width={24}
                   height={24}
                 />
                 <img
-                  src="/images/hero/tiktok.svg"
+                  src="/images/main/hero/tiktok.svg"
                   alt="tiktok"
                   width={24}
                   height={24}

@@ -10,27 +10,27 @@ export function VideoShowcase() {
   const videos = [
     {
       id: 1,
-      thumbnail: "/images/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
+      thumbnail: "/images/main/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
       icon: "🔍",
     },
     {
       id: 2,
-      thumbnail: "/images/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
+      thumbnail: "/images/main/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
       icon: "🎬",
     },
     {
       id: 3,
-      thumbnail: "/images/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
+      thumbnail: "/images/main/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
       icon: "🎬",
     },
     {
       id: 4,
-      thumbnail: "/images/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
+      thumbnail: "/images/main/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
       icon: "🎬",
     },
     {
       id: 5,
-      thumbnail: "/images/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
+      thumbnail: "/images/main/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif",
       icon: "🎬",
     },
   ];
@@ -49,7 +49,7 @@ export function VideoShowcase() {
         <div className="video-showcase-socials">
           <a href="#" aria-label="Facebook">
             <img
-              src="/images/hero/facebook.svg"
+              src="/images/main/hero/facebook.svg"
               alt="facebook"
               width={24}
               height={24}
@@ -57,7 +57,7 @@ export function VideoShowcase() {
           </a>
           <a href="#" aria-label="Instagram">
             <img
-              src="/images/hero/instagram.svg"
+              src="/images/main/hero/instagram.svg"
               alt="instagram"
               width={24}
               height={24}
@@ -65,7 +65,7 @@ export function VideoShowcase() {
           </a>
           <a href="#" aria-label="TikTok">
             <img
-              src="/images/hero/tiktok.svg"
+              src="/images/main/hero/tiktok.svg"
               alt="tiktok"
               width={24}
               height={24}
@@ -124,7 +124,7 @@ export function VideoShowcase() {
           })}
 
           <img
-            src="/images/VideoShowcase/phone.svg"
+            src="/images/main/videoShowcase/phone.svg"
             alt=""
             className="video-showcase-phone-frame"
             aria-hidden="true"

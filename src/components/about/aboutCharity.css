@@ -1,0 +1,142 @@
+.about-charity {
+  height: 637px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  display: flex;
+  justify-content: center;
+  background: #F3F3F3;
+  padding: 60px 0 100px 0;
+  box-sizing: border-box;
+}
+
+.about-charity-content {
+  max-width: 1232px;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-charity-title {
+  font-family: "Sansation", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #404347;
+  text-transform: uppercase;
+  padding: 0;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.about-charity-subtitle {
+  margin-top: 5px;
+  margin-left: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.about-charity-main {
+  position: relative;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.about-charity-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.about-charity-mask-image {
+  width: 678px;
+  height: 365px;
+  object-fit: contain;
+  display: block;
+}
+
+.about-charity-hands {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.about-charity-hands-image {
+  width: 506px;
+  height: 181px;
+  object-fit: contain;
+  display: block;
+}
+
+.about-charity-text {
+  position: absolute;
+  right: 0;
+  top: 181px;
+  width: 506px;
+  display: flex;
+  flex-direction: column;
+  
+  z-index: 3;
+  margin-top: 20px;
+}
+
+.about-charity-text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #404347;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .about-charity-main {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-charity-images {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .about-charity-image-card {
+    min-width: calc(33.333% - 16px);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-charity-title {
+    font-size: 32px;
+  }
+
+  .about-charity-subtitle {
+    font-size: 18px;
+  }
+
+  .about-charity-images {
+    flex-direction: column;
+  }
+
+  .about-charity-image-card {
+    width: 100%;
+    min-width: 100%;
+    height: 250px;
+  }
+
+  .about-charity-text p {
+    font-size: 14px;
+  }
+}
+

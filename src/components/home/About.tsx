@@ -27,7 +27,7 @@ export function About() {
 
           <div className="about-image-wrapper">
             <Image
-              src="/images/about/pic_about.svg"
+              src="/images/main/about/pic_about.svg"
               alt="Про нас"
               width={500}
               height={400}
@@ -40,7 +40,7 @@ export function About() {
           <div className="about-feature-card">
             <div className="about-feature-icon">
               <Image
-                src="/images/about/guard.svg"
+                src="/images/main/about/guard.svg"
                 alt="Сертифіковане виробництво"
                 width={56}
                 height={56}
@@ -53,7 +53,7 @@ export function About() {
           <div className="about-feature-card">
             <div className="about-feature-icon">
               <Image
-                src="/images/about/cycle.svg"
+                src="/images/main/about/cycle.svg"
                 alt="Повний цикл виробництва"
                 width={56}
                 height={56}
@@ -66,7 +66,7 @@ export function About() {
           <div className="about-feature-card">
             <div className="about-feature-icon">
               <Image
-                src="/images/about/water.svg"
+                src="/images/main/about/water.svg"
                 alt="Власна свердловина"
                 width={56}
                 height={56}

@@ -1,0 +1,228 @@
+.about-standards {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F3F3F3;
+  padding: 60px 0;
+  box-sizing: border-box;
+}
+
+.about-standards-container {
+  position: relative;
+  width: 1232px;
+  height: 500px;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.about-standards-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.about-standards-mask-wrapper {
+  position: relative;
+  width: 1232px;
+  height: 384px;
+  z-index: 2;
+}
+
+.about-standards-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.about-standards-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.about-standards-text-step {
+  position: absolute;
+  font-family: "Sansation", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #404347;
+  text-transform: uppercase;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.step-1 {
+  top: 160px;
+  left: 30px;
+}
+
+.step-2 {
+  top: 240px;
+  left: 200px;
+}
+
+.step-3 {
+  top: 330px;
+  left: 470px;
+}
+
+/* Контент після маски */
+.about-standards-content {
+  height: 270px;
+  max-width: 1232px;
+  width: 100%;
+  display: flex;
+  gap: 60px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+/* Сітка карток (ліва частина) */
+.about-standards-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 24px;
+  flex: 0 0 auto;
+  width: 595px;
+  height: 270px;
+}
+
+/* Картка */
+.about-standards-card {
+  width: 286px;
+  height: 123px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+/* Іконка в картці */
+.about-standards-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  width: 56px;
+  height: 56px;
+}
+
+.about-standards-card-icon svg {
+  width: 56px;
+  height: 56px;
+}
+
+/* Заголовок картки */
+.about-standards-card-title {
+  font-family: "Sansation", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+.about-standards-text-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  max-width: 50%;
+}
+
+.about-standards-text-block {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #404347;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .about-standards-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-standards-cards {
+    width: 100%;
+  }
+
+  .about-standards-text-blocks {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-standards-container {
+    width: calc(100% - 48px);
+    height: 400px;
+  }
+
+  .about-standards-text-step {
+    font-size: 32px;
+  }
+
+  .step-1 {
+    top: 60px;
+    left: 40px;
+  }
+
+  .step-2 {
+    top: 120px;
+    left: 100px;
+  }
+
+  .step-3 {
+    top: 180px;
+    left: 160px;
+  }
+
+  .about-standards-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .about-standards-card {
+    min-height: 160px;
+    padding: 20px;
+  }
+
+  .about-standards-card-title {
+    font-size: 16px;
+  }
+
+  .about-standards-text-block {
+    font-size: 14px;
+  }
+}
+

@@ -1,0 +1,148 @@
+.about-history {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    background: #f4f4f4;
+    box-sizing: border-box;
+  }
+
+  .about-history-container {
+    position: relative;
+    width: 1232px;
+    height: 683px;
+    background: #ffffff;
+    border-radius: 40px;
+    padding: 30px 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .about-history-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: -30px;
+  }
+  
+  .about-history-title {
+    font-family: "Sansation", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #404347;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .about-history-timeline {
+    position: relative;
+    width: 782px;
+    height: 422px;
+  }
+  
+  .about-history-line {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -80px;
+    right: 35px;
+  }
+  
+  .about-history-point {
+    position: absolute;
+    text-align: center;
+  }
+  
+  .about-history-point .year {
+    font-family: "Sansation", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2f2f2f;
+  }
+  
+  .about-history-point .subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a0a0a0;
+  }
+  
+  
+  
+  .about-history-info {
+    width: 774px;
+    height: 336px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #f6f6f6;
+    border-radius: 30px;
+    padding: 40px 30px;
+    box-sizing: border-box;
+  }
+  
+  .history-column {
+    margin-top: -10px;
+    width:226px;
+    height: 160px;
+  }
+  
+  .history-column h3 {
+    font-family: "Sansation", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 12px;
+  }
+  
+  .history-column p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #9F9F9F;
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 1200px) {
+    .about-history-container {
+      width: calc(100% - 64px);
+      padding: 40px;
+      height: auto;
+    }
+  
+    .about-history-info {
+      flex-direction: column;
+      gap: 24px;
+      padding: 30px;
+    }
+  
+    .history-column {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-history {
+      padding: 60px 16px;
+    }
+  
+    .about-history-title {
+      font-size: 28px;
+    }
+  
+    .about-history-line {
+      left: 40px;
+    }
+  }
+  

@@ -60,7 +60,7 @@ export function Hero() {
         <div className="hero-media">
           <img
             className="hero-gif"
-            src="/images/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif"
+            src="/images/main/hero/5c2b14b13f484e409144508a95c910bb0285aa1a.gif"
             alt="hero background"
           />
           <div className="hero-media-pattern" />
@@ -80,19 +80,19 @@ export function Hero() {
 
           <div className="hero-socials">
             <img
-              src="/images/hero/facebook.svg"
+              src="/images/main/hero/facebook.svg"
               alt="facebook"
               width={24}
               height={24}
             />
             <img
-              src="/images/hero/instagram.svg"
+              src="/images/main/hero/instagram.svg"
               alt="instagram"
               width={24}
               height={24}
             />
             <img
-              src="/images/hero/tiktok.svg"
+              src="/images/main/hero/tiktok.svg"
               alt="tiktok"
               width={24}
               height={24}

@@ -1,23 +1,12 @@
-/**
- * Header Component (Шапка сайту)
- * 
- * Глобальний компонент навігації, який відображається на всіх сторінках.
- * Містить:
- * - Навігаційне меню з посиланнями на основні сторінки
- * - Кнопку "Зв'язатися з нами"
- * - Підсвітку активної сторінки
- * 
- * Використовується в: src/app/layout.tsx
- */
+
 
 "use client";
 
-import React from "react";
+import "./header.css";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-import "./header.css";
+import React from "react";
 
 const navItems = [
   { href: "/", label: "ГОЛОВНА", type: "pill" as const },
@@ -28,9 +17,10 @@ const navItems = [
 
 export function Header() {
   const pathname = usePathname();
+  const isAboutPage = pathname === "/about";
 
   return (
-    <header className="site-header">
+    <header className={`site-header ${isAboutPage ? "site-header-about" : ""}`}>
       <div className="container header-bar">
         <nav className="nav">
           <ul className="nav-list">

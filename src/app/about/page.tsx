@@ -1,10 +1,7 @@
-export default function AboutPage() {
-  return (
-    <section>
-      <h1>About</h1>
-      <p>Інформація про компанію (заглушка).</p>
-    </section>
-  );
+import AboutPage from "@/components/about/aboutPage";
+
+export default function About() {
+  return <AboutPage />;
 }
 
 

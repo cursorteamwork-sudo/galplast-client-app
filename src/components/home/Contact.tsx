@@ -46,14 +46,14 @@ export function Contact() {
           <h2 className="contact-map-title">ГЕОГРАФІЯ ПОКРИТТЯ</h2>
           <div className="contact-map-wrapper">
             <img
-              src="/images/contact/contact.svg"
+              src="/images/main/contact/contact.svg"
               alt="Географія покриття"
               className="contact-map"
             />
             {mapMarkers.map((marker) => (
               <img
                 key={marker.id}
-                src="/images/contact/geo.svg"
+                src="/images/main/contact/geo.svg"
                 alt=""
                 className="contact-map-icon"
                 style={{

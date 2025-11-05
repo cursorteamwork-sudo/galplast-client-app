@@ -115,8 +115,8 @@
   position: relative;
   width: 100%;
   aspect-ratio: 764 / 782;
-  -webkit-mask: url(/images/advantages/mask.svg);
-  mask: url(/images/advantages/mask.svg);
+  -webkit-mask: url(/images/main/advantages/mask.svg);
+  mask: url(/images/main/advantages/mask.svg);
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
   overflow: hidden;

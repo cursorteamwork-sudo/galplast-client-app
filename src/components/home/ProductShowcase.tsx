@@ -17,7 +17,7 @@ export interface Product {
 const PRODUCTS: Product[] = [
   { 
     name: "РОГАТИНЬСКА", 
-    image: "/images/Products/rogatynska.svg", 
+    image: "/images/main/products/rogatynska.svg", 
     isMain: true,
     benefits: [
       "Мінеральна лікувально-столова вода (~8 PH);",
@@ -33,7 +33,7 @@ const PRODUCTS: Product[] = [
   },
   { 
     name: "ROKSOLANA", 
-    image: "/images/Products/roksolana.svg", 
+    image: "/images/main/products/roksolana.svg", 
     isMain: false,
     benefits: [
       "Добувається з природнього джерела;",
@@ -44,7 +44,7 @@ const PRODUCTS: Product[] = [
   },
   { 
     name: 'ТМ "МИ"', 
-    image: "/images/Products/tm_my.svg", 
+    image: "/images/main/products/tm_my.svg", 
     isMain: false,
     benefits: [
       "Лінійка фруктових напоїв з соком та на цукрі;",
@@ -61,7 +61,7 @@ const PRODUCTS: Product[] = [
   },
   { 
     name: "Aqua Fruit", 
-    image: "/images/Products/aqua_fruit.svg", 
+    image: "/images/main/products/aqua_fruit.svg", 
     isMain: false,
     benefits: [
       "Виготовлені за сучасними технологіями;",
@@ -73,7 +73,7 @@ const PRODUCTS: Product[] = [
   // Додайте новий продукт тут:
   // {
   //   name: "НОВИЙ ПРОДУКТ",
-  //   image: "/images/Products/new_product.svg",
+  //   image: "/images/main/products/new_product.svg",
   //   isMain: false,
   //   benefits: [
   //     "Опис 1;",

@@ -3,6 +3,11 @@
   top: 0;
   z-index: 10;
   background: #FFFFFF;
+  transition: background 0.3s ease;
+}
+
+.site-header-about {
+  background: #F3F3F3;
 }
 
 .header-bar {
